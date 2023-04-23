@@ -1,10 +1,10 @@
 import React from "react";
 import { StyleSheet ,Text, View } from "react-native";
 
-function Header(props) {
+function Footer(props) {
   return (
     <View style={styles.container}>
-      <Text style={styles.headerText}>{props.title}</Text>
+      <Text style={styles.footerText}>{props.title}</Text>
     </View>
   );
 }
@@ -16,11 +16,11 @@ const styles = StyleSheet.create({
     backgroundColor: 'navy',
     alignItems: 'center',
   },
-  headerText: {
+  footerText: {
     fontSize: 20,
     fontWeight: 'bold',
     color: 'white'
   }
 });
 
-export default Header;
+export default Footer;
